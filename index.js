@@ -5,8 +5,6 @@ function testFunc() {
 }
 
 function superbowlWin(array) {
-  const record = array.find => {
-    return record.result === "W"
-  }
+  let record = array.find(s => s === "W" )
   return record ? record.year: undefined
 }
