@@ -6,9 +6,6 @@ function testFunc() {
 
 function superbowlWin(array) {
   let record = array.find( s => s === "W" )
-  if(!!record) {
+  if (record) {
     return record.year
-  } else {
-    return undefined
   }
-}
